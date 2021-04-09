@@ -21,6 +21,7 @@ This equalizer clearly is more potent than the (deprecated ?), optional one from
 ## Build & Install
 
 ```sh
+sudo apt-get install libgtk-3-dev bc meson python3 python3-gi python-gi-dev
 meson build
 cd build
 ninja
